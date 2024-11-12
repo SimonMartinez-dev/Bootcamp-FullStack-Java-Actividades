@@ -59,7 +59,7 @@ public class CuentaBancaria {
         } else if (monto > saldo) {
             System.out.println("Fondos insuficientes para retirar $" + monto + " ,saldo actual: $" + saldo);
         } else {
-            System.out.println("El monto a retirar debe ser mayor a 0.");
+            System.out.println("El monto a retirar debe ser mayor a 0");
         }
     }
 	public String despliegaInformacion() {

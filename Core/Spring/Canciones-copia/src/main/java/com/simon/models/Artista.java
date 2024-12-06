@@ -51,7 +51,7 @@ public class Artista {
 		this.biografia = "";
 		this.fechaCreacion = LocalDate.now();
 		this.fechaActualizacion = LocalDate.now();
-		this.canciones = new ArrayList<Cancion>(); // NO LIST<>()?
+		this.canciones = new ArrayList<Cancion>(); 
 	}
 
 	public Long getId() {
